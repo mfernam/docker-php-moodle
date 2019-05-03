@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install -y \
     mysqli pdo pdo_mysql zip opcache \
     xmlrpc soap intl
 WORKDIR /var/www/html/moodle
-ADD ./campus-moodle /var/www/html/moodle
+#ADD ./campus-moodle /var/www/html/moodle
